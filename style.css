@@ -260,6 +260,60 @@ margin-top: 40px;
     padding: 10px 0px 20px 0px;
 }
 
+/* fourth section code start advice */
+#fourth-section{
+    background-color: #154360;
+    padding: 100px 0px;
+    color: white;
+}
+
+.advice-parent{
+    display: flex;
+    gap: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.advice-img-box img{
+    width: 100%;
+  
+}
+.single-advice p{
+    margin: 20px 0px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.single-advice h3{
+    font-size: 25px;
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+
+}
+..single-advice h4{
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+.single-advice a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 40px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.single-advice{
+    text-align: center;
+}
+.single-advice a{
+    margin: 0px 3px;
+    border: 1px solid black;
+}
+.single-advice a:hover {
+    background-color: rgb(89, 89, 56);
+}
 
 
 
@@ -313,6 +367,23 @@ margin-top: 40px;
     }
     /* about section code finished */
 
+    /* start advice section code  */
+    .advice-parent{
+        display: block;
+        gap: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .advice-icon{
+        text-align: left;
+
+    }
+    .advice-icon a{
+        margin: 10px 5px;
+    }
+    .single-advice h3{
+        margin-top: 50px;
+    }
 
 }
 
@@ -363,6 +434,23 @@ margin-top: 40px;
     }
 
     /* about section code finished */
+
+    /* start advice section code */
+
+    .advice-parent{
+        display: flex;
+        gap: 50px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .advice-icon{
+        text-align: center;
+
+    }
+    .advice-icon a{
+        margin: 10px 5px;
+    }
+  
 }
 
  
