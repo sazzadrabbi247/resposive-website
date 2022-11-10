@@ -102,13 +102,6 @@ header{
 
 }
 
-
-
-
-
-
-
-
  /* first section of main tag code start */
 
  .service-title{
@@ -126,13 +119,11 @@ header{
  }
  #service-parent{
     width: 1100px;
-  
+    padding-bottom: 100px;
     margin: 0px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px
-    padding-bottom: 100px;
-    
 }
 .single-service{
     text-align: center;
@@ -147,7 +138,6 @@ header{
 .single-service i{
     font-size: 40px;
   
-
 }
 .single-service h2{
     margin: 10px 0px;
@@ -179,24 +169,20 @@ header{
     align-items: center;
 
 }
-.smart-imge{
-
-}
 .smart-text h2{
     margin: 20px 0px;
     font-size: 30px;
-
 }
-.smart-text a{
 
-text-decoration: none;
-font-size: 22px;
-background-color: bisque;
-color: black;
-padding: 10px 30px;
-border-radius: 5px;
-display: inline-block;
-margin-top: 40px;
+.smart-text a{
+    text-decoration: none;
+    font-size: 22px;
+    background-color: bisque;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 40px;
 
 }
 
@@ -227,6 +213,7 @@ margin-top: 40px;
 }
 .more-about-vanilla ul{
     margin: 20px 0px;
+  
 }
 .more-about-vanilla a{
     text-decoration: none;
@@ -288,7 +275,7 @@ margin-top: 40px;
     padding-bottom: 20px;
 
 }
-..single-advice h4{
+.single-advice h4{
     font-size: 25px;
     margin-top: 10px;
 
@@ -424,8 +411,87 @@ form p{
     letter-spacing: 0.1em;
 }
 
+/* Seven section code start  */
+#seven-section{
+    padding: 100px 0px;
 
+}
+.single-takecate h3{
+    font-size: 30px;
 
+}
+.single-takecate p{
+    margin: 20px 0px;
+}
+.single-takecate ul li{
+    list-style-position: inside;
+   margin-left: -36px;
+  margin-top: 10px;
+ 
+}
+#takecare-parent{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 30px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.single-takecate-imgeBox{
+    width: 100%;
+  
+
+}
+.single-takecate-imgeBox img{
+    width: 100%;
+   
+}
+
+/* footer section code start  */
+footer{
+    background-color: #154360;
+    padding: 100px 0px 50px 0px;
+}
+#footer-parent{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    gap: 80px;
+}
+.single-footer{
+    width: 100%;
+}
+.single-footer h5{
+    margin-bottom: 25px;
+    letter-spacing: 5px;
+}
+.single-footer-2 p{
+    margin: 15px;
+  
+
+}
+.single-footer-2 a{
+    text-decoration: none;
+    color: white;
+}
+.single-footer-3 ul{
+    display: flex;
+}
+.single-footer-3 ul li{
+    list-style-type: none;
+}
+.single-footer-3 ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 5px;
+    background-color: #0a273863;
+    padding: 8px;
+}
+.single-footer h5 span{
+    color: yellow;
+}
 
 
 
@@ -456,8 +522,8 @@ form p{
         margin-bottom: 50px;
     }
     /* smart area code finished */
-/* 
-    about section code start */
+
+    /* about section code start  */
     #anout-parent{
         display: block;
      
@@ -516,13 +582,44 @@ form p{
         .first-single-match{
             text-align: center;
         }
+        /* finished projects section works  */
+
+        /* start take care section code  */
+        #takecare-parent{
+            display: block;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .single-takecate{
+            margin-bottom: 70px;
+        }
+        /* finished take care section code  */
+
+        /* start footer code  */
+        #footer-parent{
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+            margin-right: 30px;
+
+
+        }
+        .single-footer{
+            text-align: center;
+        }
+        .single-footer-3 ul{
+           display: flex;
+           justify-content: center;
+
+        }
+
 }
 /* main phone-media qury finishe */
 
 
 /* computer-size @media qury code start here */
 
-@media only screen and (min-width: 689px) and (max-width: 1099px;) {
+@media only screen and (min-width: 689px) and (max-width: 1099px) {
     /* service section code start */
     #service-parent{
         display: grid;
@@ -602,7 +699,29 @@ form p{
 
 
     }
-  
+    /* finished match project work  */
+
+    /* start take care section code  */
+    #takecare-parent{
+        display: block;
+        margin-left: 70px;
+        margin-right: 70px;
+        
+    }
+    .single-takecate{
+        margin-bottom: 80px;
+      
+    }
+    /* finished take care section code  */
+
+    /* footer section code start  */
+
+    #footer-parent{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+
 }
 
  
